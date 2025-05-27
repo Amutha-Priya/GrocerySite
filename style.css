@@ -1,0 +1,2147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  overflow-x: hidden;
+}
+.header {
+  width: 100%;
+  height: 10%;
+  background-color: black;
+}
+
+.header h1 {
+  color: white;
+  /* margin-left: 40px;
+  margin-top: 10px; */
+}
+.content {
+  width: 100%;
+}
+
+.navbar {
+  width: 80%;
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 10px;
+  margin-left: 60px;
+}
+
+.leftnav img {
+  height: 35px;
+}
+.leftnav {
+  width: 58%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rightnav {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.rightnav h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 520;
+  align-items: center;
+}
+.rightnav h1:hover {
+  color: #64b496;
+  cursor: pointer;
+}
+
+.menu {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+
+.menulist {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 60%;
+}
+.menulist h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #151616d3;
+  font-weight: 600;
+}
+.content {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 55%;
+  height: 40px;
+}
+.searchbox input,
+select {
+  border: none;
+  outline: none;
+}
+.inputTag {
+  width: 48%;
+  height: 100%;
+  border-right: 1px solid #64b496;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.inputTag input {
+  width: 100%;
+  height: 100%;
+}
+.selectTag {
+  width: 40%;
+  height: 100%;
+  border-right: 1px solid #64b496;
+}
+button {
+  border: none;
+  box-shadow: none;
+}
+.selectTag select {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchIcon {
+  width: 12%;
+  height: 100%;
+  background-color: #64b496;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.menuicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-size: 22px;
+  height: 50%;
+  width: 3%;
+  margin-top: 1%;
+}
+.icon i:hover {
+  cursor: pointer;
+}
+.phone {
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.phone h1 {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: RGB(0, 0, 0);
+  font-weight: 500;
+  justify-content: flex-end;
+  margin-top: 4%;
+}
+.phone i {
+  font-size: 20px;
+}
+.rightnavlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.rightnavlist i {
+  font-size: 22px;
+}
+.banner img {
+  padding-top: 10px;
+  width: 100%;
+  height: 550px;
+}
+.banner {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bannercontent {
+  position: absolute;
+  top: 20px;
+}
+.centercon {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.bannercontent {
+  width: 80%;
+  padding-top: 80px;
+
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.bannercontent span {
+  color: #64b496;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.bannercontent button {
+  background-color: #64b496;
+  width: 100px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border-color: #64b496;
+}
+.bannercontent button:hover {
+  cursor: pointer;
+}
+.Categories {
+  height: auto;
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subcategories {
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+.Categorysecad {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  gap: 28px;
+  justify-content: center;
+}
+.category1 {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+
+  height: 75px;
+  border-radius: 5px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.918);
+  flex-direction: column;
+  background-color: #f7f7f8;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px;  */
+}
+.category2 {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+
+  height: 75px;
+  border-radius: 5px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.918);
+  flex-direction: column;
+  background-color: #f7f7f8;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px;  */
+}
+.category3 {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+
+  height: 75px;
+  border-radius: 5px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.918);
+  flex-direction: column;
+  background-color: #f7f7f8;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px;  */
+}
+.category4 {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+
+  height: 75px;
+  border-radius: 5px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.918);
+  flex-direction: column;
+  background-color: #f7f7f8;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px;  */
+}
+.category5 {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+
+  height: 75px;
+  border-radius: 5px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.918);
+  flex-direction: column;
+  background-color: #f7f7f8;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px;  */
+}
+.category6 {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+
+  height: 75px;
+  border-radius: 5px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.918);
+  flex-direction: column;
+  background-color: #f7f7f8;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px;  */
+}
+.categorysec1 {
+  padding-top: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 30%;
+}
+.Categories img {
+  border-radius: 5px;
+  width: 350px;
+  height: 500px;
+}
+.categorysec2 {
+  position: relative;
+  font-family: "Manrope", sans-serif;
+}
+.categorysec2 h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+.categorysec2 h4 {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.categorysec2contentbottom h5 {
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.categorysec2content {
+  position: absolute;
+  top: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  gap: 5px;
+  padding-left: 15px;
+}
+.categorysec2contentbottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  color: white;
+}
+.categorysec2contentbottom button {
+  background-color: #64b496;
+  color: white;
+  border-radius: 5px;
+  height: 45px;
+  width: 130px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+}
+.categorysec2contentbottom button:hover {
+  cursor: pointer;
+}
+
+.categorysec1 {
+  cursor: pointer;
+}
+.categorysec1 a:hover {
+  color: #64b496;
+}
+/* .Popularproductstart{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+} */
+.Popularproduct {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Productcontent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+}
+.SubProductcontent {
+  height: 100%;
+  width: 80%;
+  /* background-color: rgb(248, 245, 245); */
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-left: 1%;
+}
+.Stickylist {
+  height: auto;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: visible;
+  /* position: sticky;
+top:0; */
+}
+.Stickyproduct1 {
+  height: 20%;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.StickyProduct1div {
+  width: 92%;
+  height: 50px;
+  background-color: rgb(248, 247, 247);
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.StickyProduct1div a {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #64b496;
+}
+.StickyProduct1div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+  height: 50px;
+  background-color: rgb(248, 247, 247);
+  border: 1px solid rgb(223, 220, 220);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.StickyProduct1div1 a {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #151616;
+}
+.StickyProduct1div i {
+  font-weight: 600;
+}
+
+.Stickyproduct2 {
+  height: 70%;
+  width: 100%;
+  /* position: sticky;
+  top:0; */
+  /* position: absolute; */
+}
+
+.Stickyproduct2 img {
+  border-radius: 20px;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  grid-row: 3/7;
+}
+.Stickyproduct2content {
+  position: absolute;
+}
+
+.Productheading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+.Productheading h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.Productheading p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+}
+.Productdata {
+  height: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 400px);
+  gap: 20px;
+}
+.Product1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.Product1div1 {
+  width: 90%;
+  height: 52%;
+  border-radius: 20px;
+}
+.Product1div1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+}
+.hovericons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+  padding-top: 2%;
+}
+.Product1:hover .icon {
+  cursor: pointer;
+  display: block;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 1200px;
+  display: none;
+  z-index: 2;
+  background-color: white;
+}
+.icon i {
+  font-size: 20px;
+}
+.Product1div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.Product1div2 h4 {
+  text-align: center;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Product2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.Product2:hover .icon {
+  cursor: pointer;
+  display: block;
+}
+.Product3 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.Product3:hover .icon {
+  cursor: pointer;
+  display: block;
+}
+.Product4 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.Product4:hover .icon {
+  cursor: pointer;
+  display: block;
+}
+.Product5 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.Product5:hover .icon {
+  cursor: pointer;
+  display: block;
+}
+.Product6 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  /* grid-row: 3/5;
+  grid-column: 3; */
+}
+.Product6:hover .icon {
+  cursor: pointer;
+  display: block;
+}
+.Product7 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  /* grid-row: 5/7;
+  grid-column: 1; */
+}
+.Product7:hover .icon {
+  cursor: pointer;
+  display: block;
+}
+.Product8 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.Product8:hover .icon {
+  cursor: pointer;
+  display: block;
+}
+
+.uniquefont {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.863);
+}
+.ratefont {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #64b496;
+}
+
+.Swippingbanner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin-top: 8%;
+}
+.SwippingbannerContent {
+  height: 100%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-left: 1%;
+}
+
+.Swippingbanner1 {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  /* animation: scroll 9s steps(5) infinite; */
+}
+
+.Swippingbanner1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  position: relative;
+}
+.Swippingbannercontent {
+  position: absolute;
+  top: 0;
+}
+
+.Swippingbanner2 {
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.Swippingbanner2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  position: relative;
+}
+.Swippingbanner3 {
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.Swippingbanner3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  position: relative;
+}
+.Swippingbannercontent {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Swippingbannercontent h5 {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.Swippingbannercontent p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7d7c;
+}
+.Swippingbannercontent button {
+  height: 40px;
+  width: 80%;
+  background-color: #64b496;
+  color: white;
+  border-radius: 5px;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.Swippingbannercontent button:hover {
+  cursor: pointer;
+}
+
+.enquirydetails {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin-top: 8%;
+}
+.enquiryboxes {
+  height: 200px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-left: 1%;
+}
+.Productpacking {
+  height: 200px;
+  width: 100%;
+  background-color: #f7f7f8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Productpacking p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 350;
+  color: #7a7a7a;
+}
+.Productpacking i {
+  font-size: 43px;
+  color: #64b496;
+  font-weight: 400;
+}
+.Productpacking h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.Support {
+  height: 200px;
+  width: 100%;
+  background-color: #f7f7f8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Support p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 350;
+  color: #7a7a7a;
+}
+.Support i {
+  font-size: 43px;
+  color: #64b496;
+  font-weight: 400;
+}
+.Support h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.Delivery {
+  height: 200px;
+  width: 100%;
+  background-color: #f7f7f8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Delivery p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 350;
+  color: #7a7a7a;
+}
+.Delivery i {
+  font-size: 43px;
+  color: #64b496;
+  font-weight: 400;
+}
+.Delivery h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+.backgroundbanner {
+  width: 100%;
+  height: 500px;
+  background-image: url(./Website_images/bg-deal.jpg);
+  background-size: cover;
+  margin-top: 8%;
+  position: relative;
+}
+.bigdealcontent {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  background-color: #f4decd;
+  padding: 10px;
+  height: 250px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.bigdealcontent code {
+  font-family: monospace;
+  font-size: 26px;
+  font-weight: 900;
+  color: #64b496;
+}
+.bigdealcontent span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #151616;
+}
+.bigdealcontent h4 {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+.bigdealcontent p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #7a7a7a;
+}
+.time {
+  height: 60px;
+  width: 70%;
+  border: 1px solid #f4decd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  align-content: center;
+  border-radius: 5px;
+}
+.SnacksOrganic {
+  height: 400px;
+  width: 100%;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.SnacksOrganiccontent {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.SnacksOrganicProduct {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  gap: 20px;
+}
+.SnacksOrganicAd {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+}
+.SnacksOrganicProduct1 {
+  height: 100%;
+  width: 50%;
+}
+.SnacksOrganicProduct2 {
+  height: 100%;
+  width: 50%;
+}
+.SnacksOrganicAd img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.SnacksOrganicAdContent {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-end;
+}
+.SnacksOrganicAdContent h4 {
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+.SnacksOrganicAdContent span {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.SnacksOrganicAdContent p {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+.SnacksOrganicAdContent button {
+  background-color: #64b496;
+  width: 100px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border-color: #64b496;
+}
+.SnacksOrganicAdContent button:hover {
+  cursor: pointer;
+}
+.Feedback {
+  margin-top: 10%;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.reviewer {
+  height: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.reviewer1 {
+  background-color: #f7f7f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+  padding-top: 60px;
+  border: 1px solid #dfdada;
+}
+.reviewerPic {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: -30px;
+}
+.reviewercontent {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.reviewercontent span {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8c8c8c;
+}
+.reviewercontent h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.reviewercontent p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #8c8c8c;
+}
+.reviewerPic img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 600px;
+}
+.reviewer2 {
+  background-color: #f7f7f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  padding-top: 60px;
+  border: 1px solid #dfdada;
+}
+
+.reviewer3 {
+  background-color: #f7f7f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #dfdada;
+  border-radius: 5px;
+  gap: 25px;
+  position: relative;
+  padding-top: 60px;
+}
+.Latestnews {
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9%;
+}
+.Newsdetails {
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Newscontent {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.Newscontent h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.Newscontent p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #7b8b8b;
+}
+
+.NewsAds {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.FirstAd {
+  border: 1px solid #e9e8e8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+}
+.SecondAd {
+  border: 1px solid #e9e8e8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+}
+.ThirdAd {
+  border: 1px solid #e9e8e8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+}
+.adcontent {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+.adcontent code {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
+}
+.adcontent h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #151616e1;
+}
+.adcontent a {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #64b496;
+}
+.adimage {
+  height: 65%;
+  width: 100%;
+  position: relative;
+}
+.date {
+  position: absolute;
+  bottom: 5px;
+  right: 30px;
+  height: 30%;
+  width: 15%;
+  background-color: #44474a;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date span {
+  font-family: "Manrope", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  color: white;
+}
+.adimage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.footer {
+  height: 500px;
+  width: 100%;
+  background-color: #f7f7f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+}
+.footercontent {
+  height: 500px;
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Contactdetails {
+  height: 90%;
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.Carrot {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: RGB(122, 122, 122);
+  padding-top: 100px;
+}
+.Carrot h4 {
+  display: none;
+}
+.Carrot i {
+  font-weight: 500;
+  color: #64b496;
+  font-size: 22px;
+}
+.logo {
+  height: auto;
+  width: 100%;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: RGB(122, 122, 122);
+}
+.Companycontact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+}
+.Companycontact h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.Company {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.footerlist {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.Category {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.Subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+}
+.Subscribe h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.Subscribe input {
+  height: 40px;
+  width: 80%;
+  background-color: #faf9f9;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: RGB(122, 122, 122);
+  border-radius: 5px;
+  padding-left: 10px;
+  border-color: #e9e8e8;
+}
+.socialmedia {
+  display: flex;
+  gap: 5px;
+}
+.socialmedia i {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Lastads {
+  display: flex;
+  height: auto;
+  gap: 10px;
+}
+.firuitad {
+  height: 70px;
+  width: 20%;
+}
+.Lastads img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.fishad {
+  height: 70px;
+  width: 20%;
+}
+.Vegad {
+  height: 70px;
+  width: 20%;
+}
+.Meatad {
+  height: 70px;
+  width: 20%;
+}
+
+.footerlogo {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footerlogo i {
+  font-size: 15px;
+  font-weight: 100;
+}
+.footerlogo span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footerlogo a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #64b496;
+}
+
+@media (max-width: 1200px) {
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .navbar {
+    width: 100%;
+    /* background-color: yellow; */
+  }
+  .rightnav {
+    display: none;
+  }
+  .content {
+    margin-left: 0px;
+  }
+  .leftnav {
+    width: 90%;
+  }
+  .menulist {
+    display: none;
+  }
+  .phone {
+    display: none;
+  }
+  .menu {
+    /* padding: 30px 60px; */
+    padding-top: 15px;
+    padding-left: 60px;
+    height: 40px;
+  }
+  .menuicon {
+    margin: 0;
+    height: 65%;
+    /* padding: 10px; */
+  }
+  .bannercontent {
+    padding: 0px;
+    top: 20%;
+    left: 5%;
+    width: 50%;
+  }
+  .centercon {
+    font-size: 30px;
+  }
+  .subcategories {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* margin-left: 10%; */
+  }
+  .categorysec1 {
+    width: 110%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 40px;
+  }
+  .Categorysecad {
+    width: 80%;
+  }
+  .Popularproduct {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Popularproductstart {
+    height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Productcontent {
+    height: auto;
+    width: 100%;
+  }
+  .SubProductcontent {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Stickylist {
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Stickyproduct1 {
+    height: auto;
+    width: 100%;
+  }
+  .Stickyproduct2 {
+    height: auto;
+    width: 100%;
+  }
+  .Stickyproduct2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+  }
+  .Productdata {
+    height: auto;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .Swippingbanner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-top: 8%;
+  }
+  .SwippingbannerContent {
+    height: 100%;
+    width: 80%;
+    /* display: grid;
+grid-template-columns: repeat(2,1fr); */
+    display: flex !important;
+    overflow: scroll;
+  }
+  .Swippingbanner1 {
+    width: 400px !important;
+  }
+  .Swippingbanner1 img {
+    width: 300px;
+  }
+  /* .Swippingbannercontent {
+    width: 100%;
+  } */
+  .Swippingbanner2 {
+    width: 400px !important;
+  }
+  .Swippingbanner2 img {
+    width: 300px;
+  }
+  .Swippingbanner3 {
+    width: 400px !important;
+  }
+  .Swippingbanner3 img {
+    width: 300px;
+  }
+
+  .enquirydetails {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-top: 8%;
+  }
+  .enquiryboxes {
+    height: 200px;
+    width: 80%;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    gap: 25px;
+    margin-left: 1%;
+
+    overflow: scroll;
+  }
+  .Productpacking {
+    width: 300px;
+  }
+  .Support {
+    width: 300px;
+  }
+  .Delivery {
+    width: 300px;
+    /* display: none; */
+  }
+  .backgroundbanner {
+    width: 100%;
+    height: 500px;
+    background-image: url(./Website_images/bg-deal.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+    position: relative;
+  }
+
+  .SnacksOrganic {
+    height: auto;
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .SnacksOrganiccontent {
+    height: 100%;
+    width: 80%;
+    display: grid;
+    gap: 10px;
+  }
+  .SnacksOrganicProduct {
+    width: 100%;
+  }
+  .SnacksOrganicAd {
+    margin-top: 8%;
+    width: 100%;
+  }
+  .Feedback {
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  .reviewer {
+    width: 80%;
+    height: 300px;
+    overflow: scroll;
+  }
+  .reviewer1 {
+    /* height: 100%; */
+    width: 300px;
+  }
+  .reviewer2 {
+    width: 300px;
+  }
+  .reviewer3 {
+    width: 300px;
+  }
+  .Latestnews {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9%;
+  }
+  .Newsdetails {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .NewsAds {
+    height: auto;
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    overflow: scroll;
+    gap: 20px;
+  }
+  .FirstAd {
+    width: 310px;
+  }
+  .SecondAd {
+    width: 310px;
+  }
+  .ThirdAd {
+    width: 310px;
+  }
+  .Contactdetails {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+  }
+  .Carrot ul {
+    display: none;
+  }
+  .footer {
+    height: 500px;
+    width: 100%;
+    background-color: #f7f7f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footercontent {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .Contactdetails {
+    display: flex;
+    flex-direction: column;
+  }
+  .Companycontact {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 0%; */
+  }
+  .Company {
+    position: relative;
+    display: inline-block;
+  }
+  .Category {
+    position: relative;
+    display: inline-block;
+  }
+  .Carrot {
+    position: relative;
+    display: inline-block;
+  }
+  .Subscribe {
+    position: relative;
+    display: inline-block;
+  }
+
+  .Carrot h4 {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #151616;
+  }
+  .footerlist {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .Company:hover .footerlist {
+    display: block;
+  }
+  .Category:hover .footerlist {
+    display: block;
+  }
+  .Carrot:hover .footerlist {
+    display: block;
+    cursor: pointer;
+  }
+  .Subscribe:hover .footerlist {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 0%;
+    padding: 0%;
+  }
+  .leftnav {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightnav {
+    display: none;
+  }
+  .leftnav img {
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchbox {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .selectTag {
+    display: none;
+  }
+  .inputTag {
+    width: 85%;
+  }
+  .banner img {
+    padding-top: 10px;
+    width: 230%;
+    height: 100%;
+  }
+  .banner {
+    width: 100%;
+    position: relative;
+    height: 400px;
+  }
+  .banner .bannercontent {
+    position: absolute;
+    top: 20px;
+  }
+  .bannercontent {
+    height: 100%;
+
+    padding-top: 80px;
+    padding-left: 0;
+    font-family: "Poppins", sans-serif;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bannercontent span {
+    color: #64b496;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .organic {
+    font-size: 15px;
+  }
+  .centercon {
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .Home,
+  .phone {
+    display: none;
+  }
+  .bannercontent p {
+    display: none;
+  }
+  .subcategories {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+  }
+  .categorysec1 {
+    display: flex;
+  }
+  .Categorysecad {
+    display: flex;
+    flex-direction: column;
+  }
+  .Popularproductstart {
+    width: 90%;
+  }
+  .Popularproduct {
+    width: 100%;
+    margin-top: 15%;
+    padding: 0%;
+  }
+  .Productheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .Productheading h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .Productheading p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+  }
+
+  .Stickyproduct2 {
+    display: none;
+  }
+  .Productcontent {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .SubProductcontent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .Productdata {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Product1 {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .Stickyproduct1 {
+    height: 100%;
+    width: 200%;
+  }
+  .Swippingbanner {
+    height: 100%;
+    width: 100%;
+  }
+  .SwippingbannerContent {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Swippingbanner1 {
+    width: 100px !important;
+  }
+  .Swippingbanner1 img {
+    width: 100px;
+  }
+  /* .Swippingbanner1 {
+    height: 100%;
+    width: 100%;
+  }
+  .Swippingbanner2 {
+    display: none;
+  }
+  .Swippingbanner3 {
+    display: none;
+  } */
+  .enquirydetails {
+    height: auto;
+    width: 100%;
+  }
+  .enquiryboxes {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Productpacking {
+    height: 100%;
+    width: 100%;
+  }
+  .Support {
+    display: none;
+  }
+  .Delivery {
+    display: none;
+  }
+
+  .bigdealcontent {
+    top: 20%;
+    left: 5%;
+    width: 80%;
+    height: 200px;
+    background-color: #f5edede7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bigdealcontent h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .bigdealcontent p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .SnacksOrganic {
+    height: 100%;
+    width: 100%;
+  }
+  .SnacksOrganiccontent {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SnacksOrganicProduct1 {
+    width: 100%;
+  }
+
+  .SnacksOrganicProduct2 {
+    display: none;
+  }
+  .SnacksOrganicAdContent {
+    top: 20px;
+  }
+  .SnacksOrganicAdContent h4 {
+    font-size: 22px;
+  }
+  .Feedback {
+    width: 100%;
+    height: 100%;
+  }
+  .Newscontent {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Newscontent h2 {
+    font-size: 22px;
+  }
+  .Newscontent p {
+    font-size: 14px;
+  }
+  .reviewer {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviewer1 {
+    width: 100%;
+  }
+  .reviewer2 {
+    display: none;
+  }
+  .Latestnews {
+    width: 100%;
+    height: 100%;
+  }
+  .Newsdetails {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .NewsAds {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .FirstAd {
+    width: 100%;
+  }
+  .SecondAd {
+    display: none;
+  }
+  .footer {
+    width: 100%;
+    height: 100%;
+  }
+  .footercontent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Contactdetails {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+}
